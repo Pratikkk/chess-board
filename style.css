@@ -1,0 +1,16 @@
+.container {
+    width: 800px;
+    display: grid;
+   grid-template: repeat(8, 1fr) / repeat(8, 1fr);
+}
+
+.white {
+    background-color: #F5EEC8;
+    height: 100px;
+    width: 100px;
+}
+.black {
+    background-color: #A7D397;
+    height: 100px;
+    width: 100px;
+}
